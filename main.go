@@ -15,4 +15,5 @@ func main() {
 	fmt.Println("Hello World")
 	fmt.Println(gotools.Add(10, 2))
 	fmt.Println(stringhelper.Upper("Dog"))
+	fmt.Println(stringhelper.Concat("Hello", "World", "i", "j", "k"))
 }
